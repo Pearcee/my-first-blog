@@ -1,4 +1,4 @@
-.page-header {
+/* .page-header {
     background-color: black;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
@@ -12,10 +12,12 @@
     font-size: 20pt;
     text-decoration: none;
 }
-
+*/
 .content {
     margin-left: 40px;
-}
+    font-family: 'Courier New', Courier, monospace, cursive;
+    font-weight: 600;
+} 
 
 h1,
 h2,
@@ -76,11 +78,12 @@ h4 {
 .navbar-brand {
     font-size: 1.2em;
     font-weight: 600;
+    padding: 18px;
 }
 
 .navbar-item {
     font-variant: small-caps;
-    margin-left: 30px;
+    margin-left: 5px;
 }
 
 /* style.css */
@@ -96,4 +99,8 @@ h4 {
 
 .skip-link:focus {
     top: 0;
+}
+
+.comment {
+    margin: 20px 0px 20px 20px;
 }
