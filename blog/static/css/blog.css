@@ -8,9 +8,11 @@ body {
 
 .content {
   margin-left: 40px;
+  margin-right: 40px;
   font-family: "Courier New", Courier, monospace, cursive;
-  font-weight: 600;
+  font-weight: 500;
   color: lightgreen;
+  text-align: justify;
 }
 
 /*old*/
@@ -141,5 +143,11 @@ a {
   background-color: black;
   color: red;
   font-size: 18px;
+}
+
+.footer {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
 }
 /*# sourceMappingURL=blog.css.map */
