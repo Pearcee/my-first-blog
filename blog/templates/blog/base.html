@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-{% load static %}
 <html lang="en">
-  <head>
+{% load pwa %}
+{% load static %}
+<head>
+	{% progressive_web_app_meta %}
         <meta name="Description" content="Put your description here.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Django Girls blog</title>
@@ -31,7 +33,9 @@
         </div>
         <main id="maincontent"></main>
         <div class="footer">
-            <p>Footer</p>
-          </div>
+        <p>Footer</p>
+            <script type="text/javascript" src="{% static 'js/idb.js' %}"></script>
+            <script type="text/javascript" src="{% static 'js/idbop.js' %}"></script>
+        </div>
     </body>
 </html>
