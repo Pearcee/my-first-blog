@@ -1,5 +1,7 @@
 python -m venv myvenv
 myvenv\Scripts\activate
+cd my-first-blog
+python -m pip install --upgrade pip
 pip install django
 
 pip freeze > requirements.txt
