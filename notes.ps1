@@ -1,3 +1,4 @@
+git clone https://github.com/Pearcee/my-first-blog.git
 python -m venv myvenv
 myvenv\Scripts\activate
 cd my-first-blog
