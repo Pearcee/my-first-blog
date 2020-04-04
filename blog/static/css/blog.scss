@@ -154,8 +154,12 @@ body {
   }
   
   .footer {
-    background-color: black;
-    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
     text-align: center;
   }
   /*# sourceMappingURL=blog.css.map */
